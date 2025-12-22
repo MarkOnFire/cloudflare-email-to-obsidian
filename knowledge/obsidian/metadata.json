@@ -1,0 +1,145 @@
+{
+  "last_full_audit": "2025-10-28",
+  "documentation_sources": [
+    {
+      "name": "Obsidian Official Documentation",
+      "url": "https://help.obsidian.md/",
+      "last_crawled": "2025-10-27",
+      "pages_downloaded": 167,
+      "location": "knowledge/obsidian-core/Obsidian_Complete_Documentation.md",
+      "relevance": "Complete official Obsidian documentation covering all core features, settings, and built-in plugins"
+    },
+    {
+      "name": "Obsidian Tasks Plugin Documentation",
+      "url": "https://publish.obsidian.md/tasks/",
+      "last_crawled": "2025-10-21",
+      "location": "knowledge/plugins/tasks/Obsidian_Tasks_Complete_Documentation.md",
+      "relevance": "Complete documentation for Tasks plugin including syntax, queries, filters, and recurring tasks"
+    },
+    {
+      "name": "Obsidian Toggl Integration - GitHub Repository",
+      "url": "https://github.com/mcndt/obsidian-toggl-integration",
+      "last_crawled": "2025-10-28",
+      "location": "knowledge/plugins/toggl-integration/toggl-integration-overview.md",
+      "relevance": "Primary source for Toggl plugin documentation, features, setup, and TQL syntax"
+    },
+    {
+      "name": "Obsidian Toggl Integration - Wiki",
+      "url": "https://github.com/mcndt/obsidian-toggl-integration/wiki",
+      "last_crawled": "pending",
+      "relevance": "Detailed TQL (Toggl Query Language) reference documentation"
+    },
+    {
+      "name": "QuickAdd Toggl Integration Guide",
+      "url": "https://github.com/chhoumann/quickadd/blob/master/docs/docs/Examples/Macro_TogglManager.md",
+      "last_crawled": "pending",
+      "relevance": "Integration examples for using Toggl with QuickAdd plugin"
+    },
+    {
+      "name": "Google Drive API Overview",
+      "url": "https://developers.google.com/workspace/drive/api/guides/about-sdk",
+      "last_crawled": "2025-11-04",
+      "location": "knowledge/integrations/google-drive/google-drive-api-overview.md",
+      "relevance": "Describes Drive API components and supported operations for building Google Drive integrations"
+    },
+    {
+      "name": "Google Drive API Guides",
+      "url": "https://developers.google.com/workspace/drive/api/guides/",
+      "last_crawled": "2025-11-04",
+      "location": "knowledge/integrations/google-drive/drive-api-guides.md",
+      "relevance": "Consolidated official Drive API guide content covering file CRUD, uploads/downloads, search, permissions, metadata, shared drives, labels, changes, notifications, UI integrations, and performance guidance"
+    },
+    {
+      "name": "Google Drive API Authentication",
+      "url": "https://developers.google.com/workspace/guides/configure-oauth-consent",
+      "last_crawled": "2025-11-04",
+      "location": "knowledge/integrations/google-drive/drive-api-auth.md",
+      "relevance": "Documents OAuth consent configuration and Drive-specific scope requirements for Google Drive integrations",
+      "additional_sources": [
+        "https://developers.google.com/workspace/drive/api/guides/api-specific-auth"
+      ]
+    },
+    {
+      "name": "Google Drive API REST Reference",
+      "url": "https://developers.google.com/workspace/drive/api/reference/rest/v3",
+      "last_crawled": "2025-11-04",
+      "location": "knowledge/integrations/google-drive/drive-api-rest-reference.md",
+      "relevance": "Complete Drive API v3 REST resource catalog with method definitions, endpoints, and discovery metadata"
+    },
+    {
+      "name": "Airtable Web API Introduction",
+      "url": "https://airtable.com/developers/web/api/introduction",
+      "last_crawled": "2025-11-09",
+      "location": "knowledge/integrations/airtable/airtable-web-api-overview.md",
+      "relevance": "Comprehensive Airtable REST reference covering authentication, record operations, formulas, metadata API, webhooks, rate limits, and integration patterns"
+    },
+    {
+      "name": "Airtable Personal Access Tokens",
+      "url": "https://airtable.com/developers/web/api/personal-access-tokens",
+      "last_crawled": "2025-11-09",
+      "location": "knowledge/integrations/airtable/airtable-personal-access-tokens.md",
+      "relevance": "Explains PAT creation, scope selection, resource scoping, usage patterns, and lifecycle management"
+    },
+    {
+      "name": "Airtable Webhooks Overview",
+      "url": "https://airtable.com/developers/web/api/webhooks",
+      "last_crawled": "2025-11-09",
+      "location": "knowledge/integrations/airtable/airtable-webhooks-guide.md",
+      "relevance": "Documents webhook endpoints, authentication, delivery guarantees, verification, expiration, and quotas"
+    },
+    {
+      "name": "Airtable Metadata API",
+      "url": "https://airtable.com/developers/web/api/meta-bases",
+      "last_crawled": "2025-11-09",
+      "location": "knowledge/integrations/airtable/airtable-metadata-api.md",
+      "relevance": "Summarizes schema discovery and modification endpoints for bases, tables, and fields with permission requirements"
+    },
+    {
+      "name": "Airtable Formula Field Reference",
+      "url": "https://support.airtable.com/docs/formula-field-reference",
+      "last_crawled": "2025-11-09",
+      "location": "knowledge/integrations/airtable/airtable-formula-field-reference.md",
+      "relevance": "Catalog of Airtable formula operators and functions grouped by use case for building record-level calculations"
+    },
+    {
+      "name": "PARA Method - Forte Labs",
+      "url": "https://fortelabs.com/blog/para/",
+      "last_crawled": "2025-11-05",
+      "location": "knowledge/para-methodology/PARA_Method_Complete_Documentation.md",
+      "relevance": "Official PARA methodology documentation from Tiago Forte covering the four categories (Projects, Areas, Resources, Archives) and implementation philosophy"
+    }
+  ],
+  "plugins_documented": [
+    "toggl-integration",
+    "tasks",
+    "templater"
+  ],
+  "version_tracking": {
+    "toggl-integration": "0.11.0",
+    "tasks": "documented 2025-10-21",
+    "templater": "setup guide only"
+  },
+  "setup_guides": [
+    {
+      "name": "Templater Setup Guide for PARA Auto-Tagging",
+      "location": "knowledge/plugins/templater/templater-setup-guide.md",
+      "purpose": "Configuration guide for Templater plugin with folder-based template automation"
+    },
+    {
+      "name": "Auto Tag Configuration",
+      "location": "knowledge/setup-guides/auto_tag_config.md",
+      "purpose": "Configuration options for automatic tagging by directory"
+    },
+    {
+      "name": "Alternative Tagging Solutions",
+      "location": "knowledge/setup-guides/alternative_tagging_solutions.md",
+      "purpose": "Alternative approaches to PARA folder-based tagging in Obsidian"
+    },
+    {
+      "name": "Auto Update Tags Setup",
+      "location": "knowledge/setup-guides/auto-update-tags-setup.md",
+      "purpose": "Setup guide for automatic tag updates based on file location"
+    }
+  ],
+  "notes": "Reorganized documentation into structured knowledge base. Core Obsidian docs and plugin-specific documentation now in dedicated directories. Setup guides consolidated in separate section."
+}
